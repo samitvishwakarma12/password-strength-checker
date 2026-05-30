@@ -19,7 +19,7 @@ function checkPasswordStrength(password){
     const test_result = getTestResult(password)
     let points = 0
     for(let i = 0; i < test_result.length; i++){
-        if(test_result[i] == true){
+        if(test_result[i]){
             points++
         }
     }
