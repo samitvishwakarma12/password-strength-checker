@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check your Password Strength</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Password Strength Checker</h1>
-    <p>This website checks the strength of your password, just enter a password to get started.</p>
-    <p>&#9888; <em>We do not store any data. Password you enter is not saved.</em></p>
+    <h1 class="color-whitesmoke dynamic-sizing-1">Password Strength Checker</h1>
     
-    <fieldset>
-        <legend>Enter your Password</legend>
+    <p class="color-whitesmoke">This website checks the strength of your password, just enter a password to get started.</p>
+    <p class="color-goldenrod">&#9888; <em><b>We do not store any data. Password you enter is not saved.</b></em></p>
+    <fieldset class="no-padding">
+        <legend class="color-whitesmoke">Enter your Password</legend>
         <input type="password" name="password" id="password-field" placeholder="enter password">
         <button type="button" id="show-password-button">Show Password</button>
         <p id="password-strength-field"></p>
     </fieldset>
 
-    <h2 id="suggestions-heading" style="display: none;">Suggested Improvements to your password</h2>
-    <p id="suggestions-field"></p>
+    <h2 class="color-whitesmoke" id="suggestions-heading" style="display: none;">Suggested Improvements to your password</h2>
+    <p class="color-whitesmoke" id="suggestions-field"></p>
 </body>
 
 <script src="./script.js"></script>
