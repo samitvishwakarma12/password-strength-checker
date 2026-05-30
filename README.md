@@ -1,61 +1,66 @@
 # Password Strength Checker
 
-A simple web application that evaluates the strength of a password as you type.
+A simple web application that evaluates password strength in real time and provides suggestions for creating stronger passwords.
+
+## Live Demo
+
+🔗 https://samitvishwakarma12.github.io/password-strength-checker/
 
 ## Features
 
-- Real-time password strength evaluation
-- Detects:
-  - Alphabetic characters
-  - Numeric characters
-  - Special characters
-  - Password length requirements
-- Password visibility toggle
+* Real-time password strength evaluation
+* Color-coded strength indicators
+* Password improvement suggestions
+* Password visibility toggle
+* Privacy-focused: passwords are processed locally and are not stored
+
+## Evaluation Criteria
+
+The password is evaluated using the following checks:
+
+* Contains alphabetic characters
+* Contains numeric characters
+* Contains special characters
+* Has a length of at least 16 characters
+
+Each satisfied condition contributes one point toward the overall strength score.
+
+## Strength Levels
+
+| Score | Strength  |
+| ----- | --------- |
+| 0-1   | Very Weak |
+| 2     | Weak      |
+| 3     | Medium    |
+| 4     | Strong    |
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-
-## How It Works
-
-The password is evaluated based on the following criteria:
-
-1. Contains alphabetic characters
-2. Contains numeric characters
-3. Contains special characters
-4. Exceeds the minimum length requirement
-
-Each satisfied condition contributes to the overall strength score.
-
-Strength levels:
-
-| Score | Strength |
-|---------|---------|
-| 0-1 | Very Weak |
-| 2 | Weak |
-| 3 | Medium |
-| 4 | Strong |
+* HTML
+* CSS
+* JavaScript
 
 ## Getting Started
 
-1. Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/samitvishwakarma12/password-strength-checker.git
 ```
 
-2. Open `index.html` in your browser.
+### Run locally
+
+Open `index.html` in your browser.
 
 ## Future Improvements
 
-- Color-coded strength indicators
-- Password improvement suggestions
-- Progress bar visualization
-- Uppercase and lowercase letter checks
-- Accessibility improvements
+* Progress bar visualization
+* Separate uppercase and lowercase letter checks
+* More advanced password strength scoring
+* Detection of common password patterns
+* Accessibility improvements
+* Responsive UI enhancements
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License.
