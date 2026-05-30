@@ -114,7 +114,7 @@ function containsNumbers(password){
 function checkLength(password){
     const length = password.length
 
-    if(length > 16){
+    if(length >= 16){
         return true
     }
     else{
